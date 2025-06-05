@@ -1,0 +1,200 @@
+Minecraft:93
+Tetris:61
+Grand Theft Auto V:97
+Red Dead Redemption 2:97
+The Witcher 3: Wild Hunt:92
+Cyberpunk 2077:86
+Rust:69
+Forza Horizon 5:92
+The Elder Scrolls V: Skyrim:96
+The Elder Scrolls Online:74
+Fallout 4:87
+Fallout: New Vegas:84
+Fallout 3:93
+Civilization VI:88
+Civilization V:88
+Age of Empires II: Definitive Edition:84
+Age of Empires III: Definitive Edition:75
+Age of Empires IV:81
+Baldur's Gate 3:96
+Baldur's Gate II: Enhanced Edition:78
+Baldur's Gate: Enhanced Edition:72
+Divinity: Original Sin II:93
+Divinity: Original Sin:93
+Pillars of Eternity:89
+Pillars of Eternity II: Deadfire:88
+Wasteland 3:85
+Disco Elysium:89
+Pathfinder: Kingmaker:73
+Pathfinder: Wrath of the Righteous:83
+Planescape: Torment – Enhanced Edition:N/A
+Icewind Dale – Enhanced Edition:N/A
+Temple of Elemental Evil:71
+Torment: Tides of Numenera:81
+Tyranny:80
+Age of Wonders: Planetfall:81
+Total War: Three Kingdoms:85
+Total War: Warhammer II:86
+Total War: Warhammer III:86
+Total War: Rome II:76
+Total War: Shogun 2:90
+Europa Universalis IV:87
+Crusader Kings III:91
+Hearts of Iron IV:83
+Stellaris:78
+Frostpunk:84
+Cities: Skylines:85
+Project Zomboid:tbd
+Tropico 6:78
+Anno 1800:81
+Planet Zoo:81
+Planet Coaster:84
+Jurassic World Evolution:78
+Zoo Tycoon:68
+Lies of P:80
+Slime Rancher:81
+Kerbal Space Program:88
+Kerbal Space Program 2:88
+Civilization IV:94
+Civilization III:90
+Civilization II:94
+Age of Empires: Definitive Edition:84
+Supreme Commander:86
+Supreme Commander: Forged Alliance:81
+Sins of a Solar Empire: Rebellion:82
+Homeworld: Remastered Collection:86
+Bridge Constructor Portal:77
+Schedule I:tbd
+Final Fantasy XIV:92
+The Sims 4:70
+The Sims 3:86
+The Sims 2:90
+Geometry Dash:tbd
+Football Manager 2024:84
+NBA 2K24:68
+SILENT HILL f:89
+Among Us:85
+Valheim:tbd
+Ark: Survival Evolved:70
+Subnautica:87
+Subnautica: Below Zero:82
+The Forest:34
+Green Hell:78
+Dune: Awakening:tbd
+DayZ:31
+ARMA 3:74
+Insurgency: Sandstorm:78
+Squad:tbd
+Left 4 Dead 2:89
+Left 4 Dead:89
+Dead by Daylight:64
+Street Fighter™ 6:N/A
+Back 4 Blood:77
+Phasmophobia:76
+The Binding of Isaac:88
+Crypt of the NecroDancer:85
+Dead Cells:89
+Rogue Legacy:85
+Shovel Knight:85
+Undertale:92
+Hyper Light Drifter:84
+Transistor:83
+Bastion:86
+Torchlight II:88
+Grim Dawn:83
+Hades:93
+Hollow Knight:90
+Celeste:92
+Stardew Valley:89
+Terraria:81
+Factorio:90
+RimWorld:87
+Oxygen Not Included:85
+Prison Architect:83
+Don't Starve:78
+Portal:90
+Portal 2:95
+Half-Life:96
+Half-Life 2:96
+Half-Life: Alyx:93
+Metro 2033 Redux:90
+Metro: Last Light Redux:76
+Metro Exodus:82
+BioShock:96
+BioShock 2:88
+BioShock Infinite:94
+F1® 25:N/A
+Doom Eternal:88
+Wolfenstein II: The New Colossus:87
+Wolfenstein: Youngblood:69
+Control:82
+Death Stranding:82
+Horizon Zero Dawn:89
+Monster Hunter: World:90
+Monster Hunter Rise:88
+Sekiro: Shadows Die Twice:90
+Cuphead:86
+Dishonored:88
+Dishonored 2:88
+Prey:79
+System Shock:92
+System Shock 2:92
+Inside:93
+Limbo:90
+No Man's Sky:71
+Starbound:81
+Outer Wilds:85
+Star Wars Jedi: Fallen Order:79
+Mafia: Definitive Edition:78
+Mafia II: Definitive Edition:72
+Mafia III: Definitive Edition:78
+Just Cause 4:68
+Just Cause 3:74
+Just Cause 2:81
+Saints Row IV:86
+Saints Row: The Third:84
+Saints Row II:86
+Borderlands:84
+Borderlands 2:89
+Borderlands: The Pre-Sequel:75
+Borderlands 3:81
+Grand Theft Auto IV:98
+Grand Theft Auto: San Andreas:95
+Grand Theft Auto: Episodes from Liberty City:tbd
+Alan Wake:83
+HELLDIVERS™ 2:N/A
+The Outer Worlds:85
+Fallout 76:52
+Watch Dogs: Legion:76
+Watch Dogs 2:82
+Watch Dogs:80
+Resident Evil 7:86
+Resident Evil Village:84
+R.E.P.O.:tbd
+War Thunder:76
+Resident Evil 4:93
+Resident Evil 5:83
+Resident Evil 6:67
+Far Cry 3:88
+Far Cry 4:85
+Far Cry 5:81
+Far Cry 6:73
+Assassin's Creed Valhalla:80
+Assassin's Creed Odyssey:83
+Assassin's Creed Origins:81
+Assassin's Creed II:90
+Assassin's Creed Brotherhood:89
+Assassin's Creed III:84
+Assassin's Creed IV: Black Flag:88
+Assassin's Creed Unity:72
+Batman: Arkham City:94
+Batman: Arkham Asylum:92
+Batman: Arkham Knight:87
+Sekiro™: Shadows Die Twice - GOTY Edition:N/A
+Rise of the Tomb Raider:86
+Shadow of the Tomb Raider:75
+Deus Ex: Human Revolution:89
+Deus Ex: Mankind Divided:84
+Kingdom Come: Deliverance:76
+Mad Max:69
+The Long Dark:77
