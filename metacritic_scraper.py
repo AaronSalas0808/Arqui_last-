@@ -28,7 +28,6 @@ DEBUG_METACRITIC_HTML = True # Puedes ponerlo en False cuando estés seguro de q
 def read_games(file_path: str) -> list:
     games = []
     if not os.path.exists(file_path):
-        print(f"❌ Error: El archivo de juegos '{file_path}' no existe.")
         return games
     with open(file_path, encoding="utf-8") as f:
         for line in f:
@@ -92,7 +91,6 @@ def _fetch_single_metacritic_score(game_name: str, session: requests.Session) ->
             with open(debug_filename, "w", encoding="utf-8") as df:
                 df.write(f"<!-- URL VISITADA: {actual_url} -->\n<!-- JUEGO: {game_name} -->\n")
                 df.write(html_content_for_debug if html_content_for_debug else "NO SE CAPTURÓ CONTENIDO HTML")
-            print(f"  Metacritic: Puntuación no encontrada. HTML de depuración guardado en {debug_filename} para «{game_name}»")
         return score_found
 
     except requests.exceptions.HTTPError as e:
@@ -102,24 +100,20 @@ def _fetch_single_metacritic_score(game_name: str, session: requests.Session) ->
             with open(debug_filename, "w", encoding="utf-8") as df:
                 df.write(f"<!-- URL: {url}, URL FINAL: {actual_url}, STATUS: {e.response.status_code} -->\n<!-- JUEGO: {game_name} -->\n")
                 df.write(e.response.text)
-            print(f"  Metacritic: HTML de error guardado en {debug_filename} para «{game_name}»")
         return "N/A"
+    
     except Exception as e_gen:
-        print(f"  Metacritic: Error general para «{game_name}» (URL: {url}, URL Final: {actual_url}): {type(e_gen).__name__} - {e_gen}")
         if DEBUG_METACRITIC_HTML and html_content_for_debug:
             debug_filename = f"metacritic_exception_{_clean_filename(game_name)}.html"
             with open(debug_filename, "w", encoding="utf-8") as df:
                 df.write(f"<!-- URL: {url}, URL FINAL: {actual_url}, EXCEPCIÓN: {type(e_gen).__name__} - {e_gen} -->\n<!-- JUEGO: {game_name} -->\n")
                 df.write(html_content_for_debug)
-            print(f"  Metacritic: HTML de contexto de excepción guardado en {debug_filename} para «{game_name}»")
         return "N/A"
 
 def scrape_and_save_metacritic_scores(games_list: list, output_filename: str, delay_seconds: int = 5):
     if not games_list:
-        print("ℹ️ No hay juegos en la lista para buscar puntuaciones de Metacritic.")
         return
 
-    print(f"ℹ️ Iniciando scraping de Metacritic para {len(games_list)} juegos (delay: {delay_seconds}s)...")
     found_any_score = False
     scores_data = {}
 
@@ -129,7 +123,6 @@ def scrape_and_save_metacritic_scores(games_list: list, output_filename: str, de
             session.get("https://www.metacritic.com/", timeout=15)
         except requests.RequestException as e:
             print(f"  Metacritic: Falló GET inicial a metacritic.com: {e}")
-            # Continuar de todas formas
 
         for i, game_name in enumerate(games_list):
             score = _fetch_single_metacritic_score(game_name, session)
@@ -144,19 +137,10 @@ def scrape_and_save_metacritic_scores(games_list: list, output_filename: str, de
         for game_name, score in scores_data.items():
             f.write(f"{game_name}:{score}\n")
 
-    if not found_any_score and games_list:
-        print("⚠️ Metacritic: No se encontraron puntuaciones válidas para ningún juego.")
-    elif games_list:
-        print(f"✔ Puntuaciones de Metacritic (re)generadas y guardadas en '{output_filename}'")
-
 def main():
-    print("--- Script de Scraping de Metacritic ---")
     games_to_scrape = read_games(GAMES_FILE_PATH)
     if games_to_scrape:
         scrape_and_save_metacritic_scores(games_to_scrape, METACRITIC_SCORES_FILE, delay_seconds=5)
-    else:
-        print(f"Asegúrate de que '{GAMES_FILE_PATH}' existe y contiene nombres de juegos.")
-    print("--- Fin del Script de Scraping de Metacritic ---")
 
-if __name__ == "__main__":
-    main()
+
+main()
